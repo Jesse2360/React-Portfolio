@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import ScreenShotPwa from '../img/ScreenShotPwa.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const portfolio = () => {
@@ -15,14 +16,14 @@ const portfolio = () => {
                                 <div className="col-md-1">
                             </div>
                         <div className="col-md-3">
-                            <a href="https://jesse2360.github.io/weatherUpdate/"><img src= "assets/img/weather1.png" className="card-img-top" alt="img-one" /></a>
+                            <a href="https://jesse2360.github.io/weatherUpdate/"><img src= "assets/img/weather1.png" className="card-img-top" alt="weatherPic" /></a>
                             <p className="card-text">Weather Update Site</p>
                             <p id="repo"><a href="https://jesse2360.github.io/weatherUpdate/"> GitHub Link</a></p>
                             </div>
 
                             <div className="col-md-1"></div>
                                 <div className="col-md-3">
-                                <a href="https://jesse2360.github.io/wk5Scheduler/"><img src="assets/img/work.day.png" className="card-img-top" alt="img-two" /></a>
+                                <a href="https://jesse2360.github.io/wk5Scheduler/"><img src="assets/img/work.day.png" className="card-img-top" alt="schedulerPic" /></a>
                                 <p className="card-text">Scheduler</p>
                                 <p id="repo"><a href="https://github.com/Jesse2360/wk5Scheduler"> GitHub Link</a></p>
                             </div>
@@ -35,7 +36,7 @@ const portfolio = () => {
                             <div className="col-md-1">
                             </div>
                             <div className="col-md-3">
-                                <a href="https://jesse2360.github.io/wk4codequiz/"><img src="img/quiz3.png" className="card-img-top" alt="img-one" /></a>
+                                <a href="https://jesse2360.github.io/wk4codequiz/"><img src="img/quiz3.png" className="card-img-top" alt="quizPic" /></a>
                                 <p className="card-text">Code Quiz</p>
                                 <p id="repo"><a href="https://github.com/Jesse2360/wk4codequiz"> GitHub Link</a></p>
                             </div>
@@ -43,7 +44,7 @@ const portfolio = () => {
                             <div className="col-md-1">
                             </div>
                                 <div className="col-md-3">
-                                    <a href="https://corgimaman.github.io/groupProject/"><img src="img/screen1.jpg" className="card-img-top" alt="img-one" /></a>
+                                    <a href="https://corgimaman.github.io/groupProject/"><img src="img/screen1.jpg" className="card-img-top" alt="project1" /></a>
                                     <p className="card-text">Project-1</p>
                                     <p id="repo"><a href="https://github.com/corgimaman/groupProject"> GitHub Link</a></p>
                                 <div className="col-md-1"></div>
@@ -57,14 +58,14 @@ const portfolio = () => {
                             <div className="col-md-1"></div>
                                 <div className="col-md-3">
                                     <a href="https://jesse2360.github.io/weekd3password/">
-                                    <img src="assets/img/screenshot pasw.PNG" className="card-img-top" alt="img-one" /></a>
+                                    <img src="assets/img/screenshot pasw.PNG" className="card-img-top" alt="PasswPic" /></a>
                                 <p className="card-text">Password Generator</p>
                                 <p id="repo"><a href="https://github.com/Jesse2360/weekd3password"> GitHub Link</a></p>
                             </div>
 
                             <div className="col-md-1"></div>
                                 <div className="col-md-3">
-                                    <a href="https://ancient-brook-79986.herokuapp.com/"><img src="assets/img/let's.travel.png" className="card-img-top" alt="img-one" /></a>
+                                    <a href="https://ancient-brook-79986.herokuapp.com/"><img src={ScreenShotPwa} className="card-img-top" alt="PwaPic" /></a>
                                 <p className="card-text">Budget Tracker Pwa</p>
                                 <p id="repo"><a href="https://github.com/Jesse2360/BudgetTrackerPwa"> GitHub Link</a></p>
                             </div>
@@ -81,8 +82,6 @@ const portfolio = () => {
                             <p>Email: <a href="mailto:jesseceniceros.10@gmail.com" target="_blank"> jesseceniceros.10@gmail.com</a></p>
 
                             <p>Phone #: <a href="tel:+832-371-2370"> 832-371-2370</a></p>
-
-                            <p>Resume <a href="https://github.com/Ana199816/homework-16/blob/master/assets/resume/resume.pdf"> Resume</a></p>
 
                         </div>
                     </div>
