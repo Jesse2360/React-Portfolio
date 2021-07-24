@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import picOfMe from '../img/picOfMe.jpeg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const mainPage = () => {
@@ -8,14 +9,14 @@ const mainPage = () => {
         <div className="container">
         <div className="card">
         <div className="card-header">
-            <h3>About Me </h3>
+            <h3>About Me</h3>
         </div>
 
             <div className="card-body">
                 <blockquote className="blockquote mb-0">
                     <div className="row">
                         <div className="col-md-3">
-                            <img id="pic" src="" alt="profile pic" width="100%" height="auto%" />
+                            <img id="pic" src={picOfMe} alt="profile pic" width="100%" height="auto%" />
                         </div>
 
                                 <div className="col-md-8">
