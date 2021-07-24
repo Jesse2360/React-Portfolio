@@ -1,6 +1,10 @@
 import React from "react";
 import "../App.css";
 import ScreenShotPwa from '../img/ScreenShotPwa.png';
+import weatherUpdate from '../img/weatherUpdate.png';
+import scheduler from '../img/scheduler.png';
+import codeQuiz from '../img/codeQuiz.png';
+import GenPassword from '../img/GenPassword.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const portfolio = () => {
@@ -16,14 +20,14 @@ const portfolio = () => {
                                 <div className="col-md-1">
                             </div>
                         <div className="col-md-3">
-                            <a href="https://jesse2360.github.io/weatherUpdate/"><img src= "assets/img/weather1.png" className="card-img-top" alt="weatherPic" /></a>
+                            <a href="https://jesse2360.github.io/weatherUpdate/"><img src={weatherUpdate} className="card-img-top" alt="weatherPic" /></a>
                             <p className="card-text">Weather Update Site</p>
                             <p id="repo"><a href="https://jesse2360.github.io/weatherUpdate/"> GitHub Link</a></p>
                             </div>
 
                             <div className="col-md-1"></div>
                                 <div className="col-md-3">
-                                <a href="https://jesse2360.github.io/wk5Scheduler/"><img src="assets/img/work.day.png" className="card-img-top" alt="schedulerPic" /></a>
+                                <a href="https://jesse2360.github.io/wk5Scheduler/"><img src={scheduler} className="card-img-top" alt="schedulerPic" /></a>
                                 <p className="card-text">Scheduler</p>
                                 <p id="repo"><a href="https://github.com/Jesse2360/wk5Scheduler"> GitHub Link</a></p>
                             </div>
@@ -36,7 +40,7 @@ const portfolio = () => {
                             <div className="col-md-1">
                             </div>
                             <div className="col-md-3">
-                                <a href="https://jesse2360.github.io/wk4codequiz/"><img src="img/quiz3.png" className="card-img-top" alt="quizPic" /></a>
+                                <a href="https://jesse2360.github.io/wk4codequiz/"><img src={codeQuiz} className="card-img-top" alt="quizPic" /></a>
                                 <p className="card-text">Code Quiz</p>
                                 <p id="repo"><a href="https://github.com/Jesse2360/wk4codequiz"> GitHub Link</a></p>
                             </div>
@@ -57,8 +61,7 @@ const portfolio = () => {
                         <div className="row">
                             <div className="col-md-1"></div>
                                 <div className="col-md-3">
-                                    <a href="https://jesse2360.github.io/weekd3password/">
-                                    <img src="assets/img/screenshot pasw.PNG" className="card-img-top" alt="PasswPic" /></a>
+                                    <a href="https://jesse2360.github.io/weekd3password/"><img src={GenPassword} className="card-img-top" alt="PasswPic" /></a>
                                 <p className="card-text">Password Generator</p>
                                 <p id="repo"><a href="https://github.com/Jesse2360/weekd3password"> GitHub Link</a></p>
                             </div>
