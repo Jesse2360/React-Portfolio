@@ -5,6 +5,7 @@ import weatherUpdate from '../img/weatherUpdate.png';
 import scheduler from '../img/scheduler.png';
 import codeQuiz from '../img/codeQuiz.png';
 import GenPassword from '../img/GenPassword.png';
+import duckingAwesome from '../img/duckingAwesome.jpeg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const portfolio = () => {
@@ -48,8 +49,8 @@ const portfolio = () => {
                             <div className="col-md-1">
                             </div>
                                 <div className="col-md-3">
-                                    <a href="https://corgimaman.github.io/groupProject/"><img src="img/screen1.jpg" className="card-img-top" alt="project1" /></a>
-                                    <p className="card-text">Project-1</p>
+                                    <a href="https://corgimaman.github.io/groupProject/"><img src={duckingAwesome} className="card-img-top" alt="picOfDuckingAwesome" /></a>
+                                    <p className="card-text">Ducking Awesome</p>
                                     <p id="repo"><a href="https://github.com/corgimaman/groupProject"> GitHub Link</a></p>
                                 <div className="col-md-1"></div>
                             </div>
